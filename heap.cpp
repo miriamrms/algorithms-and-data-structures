@@ -107,17 +107,13 @@ void insertToHeap(int *v, int value, int &n){
 
 //MARK: Extract Max - O(logn)
 void extractMax(int *v, int &n){
-    
     if(n<1){
         cout << "Heap Vazia!" << endl;
     }
     else{
         int removedElement = v[0];
-        //Exchange the root’s key with the last key K.
         swap(v[0], v[n-1]);
-        //Decrease the heap’s size by 1.
         n--;
-        //Heapify the tree by sifting K down (see bottom-up algorithm).
         heapify(v, n, 0);
         cout << "Valor " << removedElement << " renmovido, a heap agora tem tamanho " << n << endl;
     }
