@@ -95,9 +95,9 @@ void insertToHeap(int *v, int value, int &n){
     else{
         v[n] = value;
         int i = n;
-        while (i>0 && v[i]>v[i/2]) {
-            swap(v[i], v[i/2]);
-            i = i/2;
+        while (i>0 && v[i]>v[(i-1)/2]) {
+            swap(v[i], v[(i-1)/2]);
+            i = (i-1)/2;
         }
         n++;
         cout << "Valor " << value << " adicionado, a heap agora tem tamanho " << n << endl;
