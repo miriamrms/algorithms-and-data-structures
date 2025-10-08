@@ -10,8 +10,7 @@ using namespace std;
 
 #define N 10
 
-void bubble_sort(int* array);
-void bubble_sort_2(int* array);
+void selection_sort(int* array);
 
 int main() {
     
@@ -23,7 +22,7 @@ int main() {
     }
     cout << endl;
     
-    bubble_sort_2(array);
+    selection_sort(array);
     
     cout << "Ordenado: ";
     for(int i = 0; i < N;i++){
@@ -35,22 +34,16 @@ int main() {
     return 0;
 }
 
-void bubble_sort(int* array){
-    for(int j = N; j > 1; j--){
-        for(int i = 0; i < (j - 1); i++){
-            if(array[i+1] < array[i]){
-                swap(array[i+1], array[i]);
+
+void selection_sort(int* array){
+    for(int j=0; j < (N - 1); j++){
+        int currentMin = j;
+        for(int i = j + 1; i < N; i++){
+            if(array[i] < array[currentMin]){
+                currentMin = i;
             }
         }
+        swap(array[j],array[currentMin]);
     }
 }
 
-void bubble_sort_2(int* array){
-    for(int j = 0; j < (N - 1); j++){
-        for(int i = 0; i < (N - 1 - j); i++){
-            if(array[i+1] < array[i]){
-                swap(array[i+1], array[i]);
-            }
-        }
-    }
-}
