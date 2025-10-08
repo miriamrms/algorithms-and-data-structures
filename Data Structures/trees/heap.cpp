@@ -104,7 +104,6 @@ void insertToHeap(int *v, int value, int &n){
     }
 }
 
-
 //MARK: Extract Max - O(logn)
 void extractMax(int *v, int &n){
     if(n<1){

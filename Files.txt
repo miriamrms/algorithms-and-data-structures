@@ -1,0 +1,59 @@
+/algorithms-and-data-structures/
+│
+├── algorithms/
+│   ├── searching/
+│   │   ├── linear_search.cpp
+│   │   └── binary_search.cpp ✅
+│   │
+│   ├── sorting/
+│   │   ├── bubble_sort.cpp
+│   │   ├── insertion_sort.cpp
+│   │   ├── selection_sort.cpp
+│   │   ├── merge_sort.cpp
+│   │   ├── quick_sort.cpp
+│   │   └── heap_sort.cpp ✅
+│   │
+│   ├── recursion/
+│   │   ├── factorial.cpp
+│   │   ├── fibonacci.cpp
+│   │   └── tower_of_hanoi.cpp
+│   │
+│   ├── graphs/
+│   │   ├── bfs.cpp
+│   │   ├── dfs.cpp
+│   │   ├── dijkstra.cpp
+│   │   ├── kruskal.cpp
+│   │   └── prim.cpp
+│   │
+│   └── math/
+│       ├── gcd.cpp
+│       ├── lcm.cpp
+│       ├── sieve_of_eratosthenes.cpp
+│       └── is_prime.cpp
+│
+├── data_structures/
+│   ├── arrays/
+│   │   └── dynamic_array.cpp
+│   │
+│   ├── linked_lists/
+│   │   ├── singly_linked_list.cpp ✅
+│   │   └── doubly_linked_list.cpp
+│   │
+│   ├── stacks/
+│   │   └── stack.cpp ✅
+│   │
+│   ├── queues/
+│   │   ├── queue.cpp
+│   │   └── circular_queue.cpp
+│   │
+│   ├── trees/
+│   │   ├── binary_tree.cpp
+│   │   ├── bst.cpp ✅
+│   │   ├── avl_tree.cpp ✅
+│   │   └── heap.cpp ✅
+│   │
+│   ├── graphs/
+│   │   └── graph.cpp (representações)
+│   │
+│   └── hash_tables/
+│       └── closed_hashing.cpp ✅
