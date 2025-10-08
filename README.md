@@ -19,12 +19,13 @@ All code is written in **C++**.
 ### Algorithms
 - **Searching**: Linear Search, Binary Search
 - **Sorting**: Bubble Sort, Insertion Sort, Merge Sort, Quick Sort, Selection Sort
-- **Recursion**: Factorial, Fibonacci, Tower of Hanoi
+<!-- - **Recursion**: Factorial, Fibonacci, Tower of Hanoi -->
 - **Graphs**: Breadth-First Search (BFS), Depth-First Search (DFS), Dijkstra, Kruskal, Prim
-- **Math**: GCD, LCM, Sieve of Eratosthenes, Prime Number Checker
+<!-- - **Math**: GCD, LCM, Sieve of Eratosthenes, Prime Number Checker -->
 
 ### Data Structures
-- Linked Lists (Singly, Doubly)
+<!-- - Linked Lists (Singly, Doubly) -->
+- Linked Lists
 - Queues and Circular Queues
 - Stacks
 - Trees (Binary, BST, AVL)
