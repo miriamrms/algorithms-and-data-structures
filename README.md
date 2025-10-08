@@ -2,6 +2,9 @@
 
 This repository contains classic algorithms and data structures implemented in C++.
 
+> 🚧 **This repository is under construction.**
+> Some implementations and files may be incomplete or subject to change.
+
 ## 📁 Project Structure
 
 - `/algorithms`: Implementations of common algorithms like sorting, searching, graph traversals, and more.
