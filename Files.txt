@@ -6,11 +6,15 @@
 │   │   └── binary_search.cpp ✅
 │   │
 │   ├── sorting/
-│   │   ├── bubble_sort.cpp
-│   │   ├── insertion_sort.cpp
-│   │   ├── selection_sort.cpp
-│   │   ├── merge_sort.cpp
-│   │   ├── quick_sort.cpp
+│   │   ├── brute_force/
+│   │   │   ├── bubble_sort.cpp ✅
+│   │   │   └── selection_sort.cpp ✅
+│   │   ├── decrease_and_conquer/
+│   │   │   ├── insertion_sort.cpp ✅
+│   │   │   └── shell_sort.cpp ✅
+│   │   ├── divider_and_conquer/
+│   │   │   ├── merge_sort.cpp ✅
+│   │   │   └── quick_sort.cpp ✅
 │   │   └── heap_sort.cpp ✅
 │   │
 │   ├── recursion/
